@@ -1,0 +1,601 @@
+
+/* Booking Flow Styles */
+
+.booking-flow-advanced {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  color: white;
+  padding: 40px 0;
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.booking-flow-advanced .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow-x: hidden;
+}
+
+.booking-header {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.booking-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+}
+
+.booking-header p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+/* Progress Bar */
+.progress-bar {
+  max-width: 600px;
+  margin: 0 auto 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.progress-steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0 10px;
+  overflow-x: hidden;
+}
+
+.progress-steps::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  right: 10px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+  flex: 1;
+  max-width: 100px;
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  position: relative;
+  z-index: 4;
+}
+
+.step.active .step-number {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  transform: scale(1.1);
+}
+
+.step-label {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  transition: color 0.3s ease;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.step.active .step-label {
+  color: white;
+  font-weight: 500;
+}
+
+/* Booking Step */
+.booking-step {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 2;
+  overflow-x: hidden;
+}
+
+.booking-step h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Service Selection */
+.service-selection {
+  margin-bottom: 40px;
+}
+
+.selected-service {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.selected-service h3 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.selected-service p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.service-details {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.detail-icon {
+  font-size: 1.2rem;
+}
+
+.service-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-features li {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 5px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+.service-features li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #28a745;
+  font-weight: bold;
+}
+
+/* Booking Form */
+.booking-form {
+  margin-bottom: 40px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 12px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #667eea;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
+
+.form-group select {
+  cursor: pointer;
+}
+
+.form-group select option {
+  background: #1a1a2e;
+  color: white;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Booking Review */
+.booking-review {
+  margin-bottom: 40px;
+}
+
+.review-section {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.review-section h3 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.review-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.review-item:last-child {
+  border-bottom: none;
+}
+
+.review-item .label {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+.review-item .value {
+  color: white;
+  font-weight: 400;
+  text-align: right;
+  max-width: 60%;
+}
+
+/* Step Actions */
+.step-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-primary,
+.btn-outline {
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-outline {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn-outline:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .booking-flow-advanced {
+    padding: 20px 0;
+    overflow-x: hidden;
+  }
+  
+  .booking-flow-advanced .container {
+    padding: 0 15px;
+    overflow-x: hidden;
+  }
+  
+  .booking-header {
+    margin-bottom: 30px;
+  }
+  
+  .booking-header h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  
+  .booking-header p {
+    font-size: 1rem;
+  }
+  
+  .progress-bar {
+    max-width: 100%;
+    margin: 0 auto 40px;
+    padding: 0 10px;
+    overflow-x: hidden;
+  }
+  
+  .progress-steps {
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0 5px;
+    overflow-x: hidden;
+  }
+  
+  .progress-steps::before {
+    display: none;
+  }
+  
+  .step {
+    flex: 1;
+    min-width: 60px;
+    max-width: 80px;
+  }
+  
+  .step-number {
+    width: 35px;
+    height: 35px;
+    font-size: 0.8rem;
+  }
+  
+  .step.active .step-number {
+    transform: scale(1.05);
+  }
+  
+  .step-label {
+    font-size: 0.75rem;
+    line-height: 1.1;
+  }
+  
+  .booking-step {
+    padding: 25px 20px;
+    margin: 0 10px;
+    overflow-x: hidden;
+  }
+  
+  .booking-step h2 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    padding: 12px 15px;
+    font-size: 16px; /* Prevents zoom on iOS */
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .service-details {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .review-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .review-item .value {
+    text-align: left;
+    max-width: 100%;
+  }
+  
+  .step-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .btn-primary,
+  .btn-outline {
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+  .booking-flow-advanced {
+    padding: 15px 0;
+    overflow-x: hidden;
+  }
+  
+  .booking-flow-advanced .container {
+    padding: 0 10px;
+    overflow-x: hidden;
+  }
+  
+  .booking-header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .booking-header p {
+    font-size: 0.9rem;
+  }
+  
+  .progress-bar {
+    margin-bottom: 30px;
+    overflow-x: hidden;
+  }
+  
+  .progress-steps {
+    gap: 10px;
+    overflow-x: hidden;
+  }
+  
+  .step {
+    min-width: 50px;
+    max-width: 70px;
+  }
+  
+  .step-number {
+    width: 32px;
+    height: 32px;
+    font-size: 0.75rem;
+  }
+  
+  .step-label {
+    font-size: 0.7rem;
+  }
+  
+  .booking-step {
+    padding: 20px 15px;
+    margin: 0 5px;
+    overflow-x: hidden;
+  }
+  
+  .booking-step h2 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    padding: 10px 12px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .form-group textarea {
+    min-height: 70px;
+  }
+  
+  .btn-primary,
+  .btn-outline {
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 360px) {
+  .booking-flow-advanced {
+    overflow-x: hidden;
+  }
+  
+  .booking-flow-advanced .container {
+    overflow-x: hidden;
+  }
+  
+  .booking-header h1 {
+    font-size: 1.6rem;
+  }
+  
+  .step {
+    min-width: 45px;
+    max-width: 60px;
+  }
+  
+  .step-number {
+    width: 28px;
+    height: 28px;
+    font-size: 0.7rem;
+  }
+  
+  .step-label {
+    font-size: 0.65rem;
+  }
+  
+  .booking-step {
+    padding: 15px 12px;
+    overflow-x: hidden;
+  }
+  
+  .booking-step h2 {
+    font-size: 1.2rem;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}

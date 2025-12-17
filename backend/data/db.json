@@ -1,0 +1,2924 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Ankit Verma",
+      "email": "ankit@example.com",
+      "phone": "9999990001",
+      "role": "user",
+      "createdAt": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "u2",
+      "name": "Priya Shah",
+      "email": "priya@example.com",
+      "phone": "9999990002",
+      "role": "user",
+      "createdAt": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "u3",
+      "name": "Admin",
+      "email": "admin@servicehub.local",
+      "phone": "9999990999",
+      "role": "admin",
+      "createdAt": "2025-01-01T00:00:00Z"
+    }
+  ],
+  "providers": [
+    {
+      "id": "p1",
+      "user_id": "u10",
+      "name": "Rajesh Kumar",
+      "categories": [
+        "Plumber"
+      ],
+      "rating": 4.7,
+      "hourly_rate": 800,
+      "profile_pic": "https://picsum.photos/800/600?random=50",
+      "verified": true,
+      "address": "Connaught Place, New Delhi",
+      "phone": "+91-9876543210",
+      "email": "rajesh.kumar@servicehub.local",
+      "experience_years": 12,
+      "jobs_completed": 156,
+      "response_time_minutes": 30,
+      "availability": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "languages": [
+        "Hindi",
+        "English",
+        "Punjabi",
+        "Haryanvi",
+        "Himachali",
+        "Bihari",
+        "Assamese",
+        "Kashmiri",
+        "Marwari"
+      ],
+      "specialties": [
+        "emergency_plumbing",
+        "pipe_repair",
+        "installation"
+      ],
+      "certifications": [
+        "plumbing_license",
+        "safety_certified"
+      ],
+      "about": "Professional plumber with 12+ years of experience in residential and commercial plumbing services.",
+      "working_hours": {
+        "start": "08:00",
+        "end": "20:00"
+      }
+    },
+    {
+      "id": "p2",
+      "user_id": "u11",
+      "name": "Amit Sharma",
+      "categories": [
+        "Electrician"
+      ],
+      "rating": 4.5,
+      "hourly_rate": 700,
+      "profile_pic": "https://picsum.photos/800/600?random=51",
+      "verified": true,
+      "address": "Hauz Khas, New Delhi",
+      "phone": "+91-9876543211",
+      "email": "amit.sharma@servicehub.local",
+      "experience_years": 8,
+      "jobs_completed": 234,
+      "response_time_minutes": 45,
+      "availability": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "specialties": [
+        "wiring",
+        "lighting",
+        "panel_installation"
+      ],
+      "certifications": [
+        "electrical_license",
+        "safety_certified"
+      ],
+      "about": "Expert electrician specializing in residential wiring and lighting solutions.",
+      "working_hours": {
+        "start": "09:00",
+        "end": "19:00"
+      }
+    },
+    {
+      "id": "p3",
+      "user_id": "u12",
+      "name": "Priya Singh",
+      "categories": [
+        "Tutor",
+        "Math"
+      ],
+      "rating": 4.8,
+      "hourly_rate": 600,
+      "profile_pic": "https://picsum.photos/800/600?random=52",
+      "verified": true,
+      "address": "Noida Sector 18",
+      "phone": "+91-9876543212",
+      "email": "priya.singh@servicehub.local",
+      "experience_years": 6,
+      "jobs_completed": 445,
+      "response_time_minutes": 60,
+      "availability": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "languages": [
+        "Hindi",
+        "English",
+        "Sanskrit"
+      ],
+      "specialties": [
+        "mathematics",
+        "algebra",
+        "geometry",
+        "exam_prep"
+      ],
+      "certifications": [
+        "bachelors_education",
+        "math_certification"
+      ],
+      "about": "Passionate mathematics educator helping students excel in exams and build strong foundations.",
+      "working_hours": {
+        "start": "10:00",
+        "end": "21:00"
+      },
+      "online_teaching": true,
+      "students_taught": 250
+    },
+    {
+      "id": "p4",
+      "user_id": "u13",
+      "name": "Anita Verma",
+      "categories": [
+        "Cleaning"
+      ],
+      "rating": 4.3,
+      "hourly_rate": 500,
+      "profile_pic": "https://picsum.photos/800/600?random=53",
+      "verified": true,
+      "address": "Gurugram Cyber City",
+      "phone": "+91-9876543213",
+      "email": "anita.verma@servicehub.local",
+      "experience_years": 5,
+      "jobs_completed": 312,
+      "response_time_minutes": 60,
+      "availability": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "specialties": [
+        "deep_cleaning",
+        "kitchen_cleaning",
+        "bathroom_cleaning"
+      ],
+      "certifications": [
+        "cleaning_certified",
+        "eco_friendly"
+      ],
+      "about": "Professional cleaning service provider specializing in residential deep cleaning.",
+      "working_hours": {
+        "start": "08:00",
+        "end": "18:00"
+      },
+      "eco_friendly": true,
+      "team_size": 2
+    },
+    {
+      "id": "p5",
+      "user_id": "u14",
+      "name": "Rohit Gupta",
+      "categories": [
+        "Mechanic"
+      ],
+      "rating": 4.6,
+      "hourly_rate": 900,
+      "profile_pic": "https://picsum.photos/800/600?random=54",
+      "verified": true,
+      "address": "Dwarka",
+      "phone": "+91-9876543214",
+      "email": "rohit.gupta@servicehub.local",
+      "experience_years": 10,
+      "jobs_completed": 189,
+      "response_time_minutes": 40,
+      "availability": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "languages": [
+        "Hindi",
+        "English",
+        "Punjabi"
+      ],
+      "specialties": [
+        "car_repair",
+        "bike_repair",
+        "engine_diagnostics"
+      ],
+      "certifications": [
+        "automotive_certified",
+        "diagnostics_expert"
+      ],
+      "about": "Expert mechanic with expertise in both car and bike repairs, certified in advanced diagnostics.",
+      "working_hours": {
+        "start": "09:00",
+        "end": "20:00"
+      },
+      "garage_type": "fully_equipped"
+    },
+    {
+      "id": "p6",
+      "user_id": "u15",
+      "name": "Vikram Malhotra",
+      "categories": [
+        "Plumber",
+        "Appliance Repair"
+      ],
+      "rating": 4.2,
+      "hourly_rate": 650,
+      "profile_pic": "https://picsum.photos/800/600?random=55",
+      "verified": true,
+      "address": "Saket",
+      "phone": "+91-9876543215",
+      "email": "vikram.malhotra@servicehub.local",
+      "experience_years": 7,
+      "jobs_completed": 145,
+      "response_time_minutes": 50,
+      "availability": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "specialties": [
+        "appliance_repair",
+        "plumbing",
+        "installation"
+      ],
+      "certifications": [
+        "appliance_certified",
+        "plumbing_license"
+      ],
+      "about": "Multi-skilled technician offering both plumbing and appliance repair services.",
+      "working_hours": {
+        "start": "08:30",
+        "end": "19:30"
+      }
+    },
+    {
+      "id": "p7",
+      "user_id": "u16",
+      "name": "Sanjay Kumar",
+      "categories": [
+        "Electrician",
+        "AC Repair"
+      ],
+      "rating": 4.1,
+      "hourly_rate": 700,
+      "profile_pic": "https://picsum.photos/800/600?random=56",
+      "verified": true,
+      "address": "Karol Bagh",
+      "phone": "+91-9876543216",
+      "email": "sanjay.kumar@servicehub.local",
+      "experience_years": 9,
+      "jobs_completed": 289,
+      "response_time_minutes": 45,
+      "availability": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "languages": [
+        "Hindi",
+        "English",
+        "Bengali"
+      ],
+      "specialties": [
+        "ac_repair",
+        "electrical_wiring",
+        "installation"
+      ],
+      "certifications": [
+        "electrical_license",
+        "ac_certified"
+      ],
+      "about": "Specialized in both electrical work and AC repair with 9+ years of hands-on experience.",
+      "working_hours": {
+        "start": "08:00",
+        "end": "20:00"
+      }
+    },
+    {
+      "id": "p8",
+      "user_id": "u17",
+      "name": "Neha Sharma",
+      "categories": [
+        "Tutor",
+        "Physics"
+      ],
+      "rating": 4.9,
+      "hourly_rate": 750,
+      "profile_pic": "https://picsum.photos/800/600?random=57",
+      "verified": false,
+      "address": "Ghaziabad",
+      "phone": "+91-9876543217",
+      "email": "neha.sharma@servicehub.local",
+      "experience_years": 8,
+      "jobs_completed": 198,
+      "response_time_minutes": 30,
+      "availability": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "languages": [
+        "Hindi",
+        "English",
+        "Sanskrit"
+      ],
+      "specialties": [
+        "physics",
+        "neet_preparation",
+        "jeet_coaching"
+      ],
+      "certifications": [
+        "masters_physics",
+        "teaching_certified"
+      ],
+      "about": "Physics expert with proven track record in competitive exam preparation.",
+      "working_hours": {
+        "start": "09:00",
+        "end": "22:00"
+      },
+      "online_teaching": true,
+      "students_taught": 320,
+      "success_rate": 88
+    },
+    {
+      "id": "p9",
+      "user_id": "u18",
+      "name": "Kavita Reddy",
+      "categories": [
+        "Cleaning",
+        "Deep Cleaning"
+      ],
+      "rating": 4.0,
+      "hourly_rate": 550,
+      "profile_pic": "https://picsum.photos/800/600?random=58",
+      "verified": true,
+      "address": "Greater Noida",
+      "phone": "+91-9876543218",
+      "email": "kavita.reddy@servicehub.local",
+      "experience_years": 4,
+      "jobs_completed": 267,
+      "response_time_minutes": 70,
+      "availability": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "languages": [
+        "Hindi",
+        "English",
+        "Telugu"
+      ],
+      "specialties": [
+        "deep_cleaning",
+        "sofa_cleaning",
+        "carpet_cleaning"
+      ],
+      "certifications": [
+        "cleaning_certified",
+        "eco_friendly"
+      ],
+      "about": "Specialized in deep cleaning services with eco-friendly products and modern equipment.",
+      "working_hours": {
+        "start": "08:00",
+        "end": "18:00"
+      },
+      "eco_friendly": true,
+      "team_size": 3
+    },
+    {
+      "id": "p10",
+      "user_id": "u19",
+      "name": "Arun Singh",
+      "categories": [
+        "Mechanic",
+        "Bike"
+      ],
+      "rating": 4.4,
+      "hourly_rate": 650,
+      "profile_pic": "https://picsum.photos/800/600?random=59",
+      "verified": false,
+      "address": "Faridabad",
+      "phone": "+91-9876543219",
+      "email": "arun.singh@servicehub.local",
+      "experience_years": 6,
+      "jobs_completed": 145,
+      "response_time_minutes": 55,
+      "availability": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "specialties": [
+        "bike_repair",
+        "motorcycle_service",
+        "emergency_repair"
+      ],
+      "certifications": [
+        "motorcycle_certified"
+      ],
+      "about": "Bike specialist offering quick and reliable motorcycle repair services.",
+      "working_hours": {
+        "start": "09:00",
+        "end": "19:00"
+      },
+      "mobile_service": true
+    }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "provider_id": "p1",
+      "title": "Fix leaking tap",
+      "description": "Repair kitchen or bathroom tap leaks",
+      "price": 499,
+      "duration_minutes": 60,
+      "category": "Plumber",
+      "thumbnail": "https://picsum.photos/800/600?random=100",
+      "featured": true,
+      "rating": 4.7,
+      "bookings": 156,
+      "tags": [
+        "emergency",
+        "plumbing",
+        "repair"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "wrench",
+        "tape",
+        "replacement_parts"
+      ],
+      "warranty_months": 3
+    },
+    {
+      "id": "s2",
+      "provider_id": "p1",
+      "title": "Clogged drain cleaning",
+      "description": "Unclog sink or floor drain",
+      "price": 699,
+      "duration_minutes": 90,
+      "category": "Plumber",
+      "thumbnail": "https://picsum.photos/800/600?random=101",
+      "featured": false,
+      "rating": 4.5,
+      "bookings": 89,
+      "tags": [
+        "drain",
+        "cleaning",
+        "emergency"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "drain_snake",
+        "plunger",
+        "chemicals"
+      ],
+      "warranty_months": 1
+    },
+    {
+      "id": "s3",
+      "provider_id": "p2",
+      "title": "Ceiling fan install",
+      "description": "Install or replace ceiling fans",
+      "price": 799,
+      "duration_minutes": 75,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=102",
+      "featured": true,
+      "rating": 4.8,
+      "bookings": 234,
+      "tags": [
+        "installation",
+        "fan",
+        "electrical"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "drill",
+        "wire_stripper",
+        "screwdriver"
+      ],
+      "warranty_months": 12
+    },
+    {
+      "id": "s4",
+      "provider_id": "p2",
+      "title": "Light fixture repair",
+      "description": "Fix flickering lights or switches",
+      "price": 499,
+      "duration_minutes": 45,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=103",
+      "featured": false,
+      "rating": 4.6,
+      "bookings": 178,
+      "tags": [
+        "lighting",
+        "repair",
+        "electrical"
+      ],
+      "difficulty": "easy",
+      "tools_required": [
+        "multimeter",
+        "wire_stripper",
+        "screwdriver"
+      ],
+      "warranty_months": 6
+    },
+    {
+      "id": "s5",
+      "provider_id": "p3",
+      "title": "Math tutoring (grade 8-10)",
+      "description": "Algebra, Geometry, Trigonometry",
+      "price": 600,
+      "duration_minutes": 60,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=104",
+      "featured": true,
+      "rating": 4.9,
+      "bookings": 445,
+      "tags": [
+        "math",
+        "tutoring",
+        "education"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "whiteboard",
+        "textbooks",
+        "calculator"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true
+    },
+    {
+      "id": "s6",
+      "provider_id": "p3",
+      "title": "Exam prep crash course",
+      "description": "Intensive test prep",
+      "price": 1200,
+      "duration_minutes": 120,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=105",
+      "featured": true,
+      "rating": 4.8,
+      "bookings": 267,
+      "tags": [
+        "exam",
+        "prep",
+        "intensive"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "study_materials",
+        "practice_tests",
+        "timer"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 92
+    },
+    {
+      "id": "s7",
+      "provider_id": "p4",
+      "title": "Home cleaning (2BHK)",
+      "description": "General house cleaning",
+      "price": 1499,
+      "duration_minutes": 180,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=106",
+      "featured": false,
+      "rating": 4.4,
+      "bookings": 312,
+      "tags": [
+        "cleaning",
+        "home",
+        "2bhk"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "vacuum",
+        "mop",
+        "cleaning_supplies"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s8",
+      "provider_id": "p4",
+      "title": "Kitchen deep cleaning",
+      "description": "Stove, chimney, cabinets",
+      "price": 1999,
+      "duration_minutes": 200,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=107",
+      "featured": true,
+      "rating": 4.6,
+      "bookings": 189,
+      "tags": [
+        "kitchen",
+        "deep_clean",
+        "chimney"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "degreaser",
+        "scrubber",
+        "vacuum"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s9",
+      "provider_id": "p5",
+      "title": "Car engine diagnostics",
+      "description": "OBD scan & inspection",
+      "price": 999,
+      "duration_minutes": 90,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=108",
+      "featured": false,
+      "rating": 4.5,
+      "bookings": 145,
+      "tags": [
+        "car",
+        "diagnostics",
+        "engine"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "obd_scanner",
+        "multimeter",
+        "tools"
+      ],
+      "warranty_months": 1
+    },
+    {
+      "id": "s10",
+      "provider_id": "p5",
+      "title": "Bike chain & brake service",
+      "description": "Tune-up and safety check",
+      "price": 599,
+      "duration_minutes": 60,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=109",
+      "featured": false,
+      "rating": 4.3,
+      "bookings": 98,
+      "tags": [
+        "bike",
+        "brake",
+        "chain"
+      ],
+      "difficulty": "easy",
+      "tools_required": [
+        "chain_tool",
+        "brake_pads",
+        "lubricant"
+      ],
+      "warranty_months": 3
+    },
+    {
+      "id": "s11",
+      "provider_id": "p6",
+      "title": "RO water purifier repair",
+      "description": "Membrane/filter issues",
+      "price": 899,
+      "duration_minutes": 90,
+      "category": "Appliance Repair",
+      "thumbnail": "https://picsum.photos/800/600?random=110",
+      "featured": false,
+      "rating": 4.4,
+      "bookings": 78,
+      "tags": [
+        "water",
+        "purifier",
+        "repair"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "wrench",
+        "filter_kit",
+        "testing_tools"
+      ],
+      "warranty_months": 6
+    },
+    {
+      "id": "s12",
+      "provider_id": "p6",
+      "title": "Geyser repair",
+      "description": "Heating element issues",
+      "price": 799,
+      "duration_minutes": 80,
+      "category": "Appliance Repair",
+      "thumbnail": "https://picsum.photos/800/600?random=111",
+      "featured": false,
+      "rating": 4.5,
+      "bookings": 123,
+      "tags": [
+        "geyser",
+        "heater",
+        "repair"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "multimeter",
+        "wrench",
+        "heating_element"
+      ],
+      "warranty_months": 3
+    },
+    {
+      "id": "s13",
+      "provider_id": "p7",
+      "title": "AC servicing",
+      "description": "Filter clean, gas top-up",
+      "price": 1999,
+      "duration_minutes": 120,
+      "category": "AC Repair",
+      "thumbnail": "https://picsum.photos/800/600?random=112",
+      "featured": true,
+      "rating": 4.7,
+      "bookings": 289,
+      "tags": [
+        "ac",
+        "servicing",
+        "gas"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "gas_cylinder",
+        "filters",
+        "vacuum_pump"
+      ],
+      "warranty_months": 3
+    },
+    {
+      "id": "s14",
+      "provider_id": "p7",
+      "title": "Wiring fault fix",
+      "description": "Short-circuit, MCB",
+      "price": 899,
+      "duration_minutes": 90,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=113",
+      "featured": false,
+      "rating": 4.6,
+      "bookings": 167,
+      "tags": [
+        "wiring",
+        "mcb",
+        "short_circuit"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "multimeter",
+        "wire_stripper",
+        "mcb"
+      ],
+      "warranty_months": 12
+    },
+    {
+      "id": "s15",
+      "provider_id": "p8",
+      "title": "Physics tutoring (XI-XII)",
+      "description": "Mechanics, Optics, EM",
+      "price": 800,
+      "duration_minutes": 60,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=114",
+      "featured": false,
+      "rating": 4.8,
+      "bookings": 198,
+      "tags": [
+        "physics",
+        "tutoring",
+        "advanced"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "physics_kit",
+        "calculator",
+        "notes"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 88
+    },
+    {
+      "id": "s16",
+      "provider_id": "p8",
+      "title": "Olympiad mentoring",
+      "description": "Concepts + problems",
+      "price": 1200,
+      "duration_minutes": 90,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=115",
+      "featured": true,
+      "rating": 4.9,
+      "bookings": 134,
+      "tags": [
+        "olympiad",
+        "mentoring",
+        "advanced"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "study_materials",
+        "practice_sets",
+        "timer"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 95
+    },
+    {
+      "id": "s17",
+      "provider_id": "p9",
+      "title": "Sofa shampooing",
+      "description": "Fabric/Leather",
+      "price": 1499,
+      "duration_minutes": 120,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=116",
+      "featured": false,
+      "rating": 4.5,
+      "bookings": 156,
+      "tags": [
+        "sofa",
+        "shampooing",
+        "fabric"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "shampoo",
+        "brush",
+        "vacuum"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s18",
+      "provider_id": "p9",
+      "title": "Bathroom deep clean",
+      "description": "Tiles, grout, fittings",
+      "price": 1299,
+      "duration_minutes": 120,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=117",
+      "featured": false,
+      "rating": 4.4,
+      "bookings": 189,
+      "tags": [
+        "bathroom",
+        "deep_clean",
+        "tiles"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "tile_cleaner",
+        "grout_brush",
+        "squeegee"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s19",
+      "provider_id": "p10",
+      "title": "Bike puncture repair",
+      "description": "On-spot fix",
+      "price": 199,
+      "duration_minutes": 30,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=118",
+      "featured": false,
+      "rating": 4.2,
+      "bookings": 267,
+      "tags": [
+        "bike",
+        "puncture",
+        "emergency"
+      ],
+      "difficulty": "easy",
+      "tools_required": [
+        "puncture_kit",
+        "air_pump",
+        "tire_levers"
+      ],
+      "warranty_months": 1
+    },
+    {
+      "id": "s20",
+      "provider_id": "p10",
+      "title": "Bike full service",
+      "description": "Brakes, chain, fluids",
+      "price": 899,
+      "duration_minutes": 120,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=119",
+      "featured": false,
+      "rating": 4.6,
+      "bookings": 145,
+      "tags": [
+        "bike",
+        "service",
+        "full"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "oil_filter",
+        "chain_lubricant",
+        "brake_pads"
+      ],
+      "warranty_months": 3
+    },
+    {
+      "id": "s21",
+      "provider_id": "p2",
+      "title": "Inverter installation",
+      "description": "Setup & testing",
+      "price": 2499,
+      "duration_minutes": 150,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=120",
+      "featured": true,
+      "rating": 4.8,
+      "bookings": 67,
+      "tags": [
+        "inverter",
+        "installation",
+        "electrical"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "drill",
+        "wiring_tools",
+        "tester"
+      ],
+      "warranty_months": 24
+    },
+    {
+      "id": "s22",
+      "provider_id": "p6",
+      "title": "Dishwasher fix",
+      "description": "Drain/heating issues",
+      "price": 1199,
+      "duration_minutes": 120,
+      "category": "Appliance Repair",
+      "thumbnail": "https://picsum.photos/800/600?random=121",
+      "featured": false,
+      "rating": 4.4,
+      "bookings": 89,
+      "tags": [
+        "dishwasher",
+        "appliance",
+        "repair"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "multimeter",
+        "drain_cleaner",
+        "replacement_parts"
+      ],
+      "warranty_months": 6
+    },
+    {
+      "id": "s23",
+      "provider_id": "p1",
+      "title": "Water tank cleaning",
+      "description": "Overhead/underground",
+      "price": 1299,
+      "duration_minutes": 150,
+      "category": "Plumber",
+      "thumbnail": "https://picsum.photos/800/600?random=122",
+      "featured": false,
+      "rating": 4.3,
+      "bookings": 123,
+      "tags": [
+        "tank",
+        "cleaning",
+        "water"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "pump",
+        "hoses",
+        "cleaning_chemicals"
+      ],
+      "warranty_months": 3
+    },
+    {
+      "id": "s24",
+      "provider_id": "p4",
+      "title": "Move-in cleaning",
+      "description": "Full home deep clean",
+      "price": 2999,
+      "duration_minutes": 360,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=123",
+      "featured": true,
+      "rating": 4.7,
+      "bookings": 234,
+      "tags": [
+        "move_in",
+        "deep_clean",
+        "full_home"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "vacuum",
+        "mop",
+        "cleaning_supplies",
+        "steam_cleaner"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s25",
+      "provider_id": "p5",
+      "title": "Car brake service",
+      "description": "Pads & rotors",
+      "price": 1999,
+      "duration_minutes": 180,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=124",
+      "featured": false,
+      "rating": 4.6,
+      "bookings": 178,
+      "tags": [
+        "car",
+        "brakes",
+        "service"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "brake_pads",
+        "rotors",
+        "bleeder_kit"
+      ],
+      "warranty_months": 6
+    },
+    {
+      "id": "s26",
+      "provider_id": "p7",
+      "title": "MCB change",
+      "description": "Replace faulty MCB",
+      "price": 699,
+      "duration_minutes": 45,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=125",
+      "featured": false,
+      "rating": 4.5,
+      "bookings": 234,
+      "tags": [
+        "mcb",
+        "replacement",
+        "electrical"
+      ],
+      "difficulty": "easy",
+      "tools_required": [
+        "mcb",
+        "screwdriver",
+        "tester"
+      ],
+      "warranty_months": 12
+    },
+    {
+      "id": "s27",
+      "provider_id": "p8",
+      "title": "NEET/JEET physics sprint",
+      "description": "Crash course",
+      "price": 2000,
+      "duration_minutes": 120,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=126",
+      "featured": true,
+      "rating": 4.9,
+      "bookings": 345,
+      "tags": [
+        "neet",
+        "jeet",
+        "physics",
+        "crash_course"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "study_materials",
+        "mock_tests",
+        "timer"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 94
+    },
+    {
+      "id": "s28",
+      "provider_id": "p6",
+      "title": "Microwave repair",
+      "description": "No heat, turntable",
+      "price": 799,
+      "duration_minutes": 75,
+      "category": "Appliance Repair",
+      "thumbnail": "https://picsum.photos/800/600?random=127",
+      "featured": false,
+      "rating": 4.3,
+      "bookings": 98,
+      "tags": [
+        "microwave",
+        "appliance",
+        "repair"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "multimeter",
+        "magnetron",
+        "turntable_motor"
+      ],
+      "warranty_months": 3
+    },
+    {
+      "id": "s29",
+      "provider_id": "p9",
+      "title": "Mattress cleaning",
+      "description": "Dust mite removal",
+      "price": 999,
+      "duration_minutes": 90,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=128",
+      "featured": false,
+      "rating": 4.4,
+      "bookings": 167,
+      "tags": [
+        "mattress",
+        "cleaning",
+        "dust_mites"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "vacuum",
+        "steam_cleaner",
+        "cleaning_solutions"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s30",
+      "provider_id": "p2",
+      "title": "Socket installation",
+      "description": "New power point",
+      "price": 499,
+      "duration_minutes": 45,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=129",
+      "featured": false,
+      "rating": 4.6,
+      "bookings": 289,
+      "tags": [
+        "socket",
+        "installation",
+        "power_point"
+      ],
+      "difficulty": "easy",
+      "tools_required": [
+        "socket",
+        "wires",
+        "screwdriver",
+        "tester"
+      ],
+      "warranty_months": 12
+    },
+    {
+      "id": "s31",
+      "provider_id": "p1",
+      "title": "Bathroom fixture installation",
+      "description": "Install faucets, showers, toilets",
+      "price": 1299,
+      "duration_minutes": 120,
+      "category": "Plumber",
+      "thumbnail": "https://picsum.photos/800/600?random=130",
+      "featured": false,
+      "rating": 4.5,
+      "bookings": 167,
+      "tags": [
+        "installation",
+        "bathroom",
+        "fixtures"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "wrench",
+        "sealant",
+        "pipe_tape"
+      ],
+      "warranty_months": 6
+    },
+    {
+      "id": "s32",
+      "provider_id": "p2",
+      "title": "Home automation setup",
+      "description": "Smart home devices installation",
+      "price": 3499,
+      "duration_minutes": 180,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=131",
+      "featured": true,
+      "rating": 4.8,
+      "bookings": 89,
+      "tags": [
+        "automation",
+        "smart_home",
+        "installation"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "drill",
+        "wiring_tools",
+        "smart_devices"
+      ],
+      "warranty_months": 24
+    },
+    {
+      "id": "s33",
+      "provider_id": "p3",
+      "title": "Chemistry tutoring (XI-XII)",
+      "description": "Organic, Inorganic, Physical Chemistry",
+      "price": 700,
+      "duration_minutes": 60,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=132",
+      "featured": false,
+      "rating": 4.7,
+      "bookings": 234,
+      "tags": [
+        "chemistry",
+        "tutoring",
+        "advanced"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "chemistry_kit",
+        "notes",
+        "calculator"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 85
+    },
+    {
+      "id": "s34",
+      "provider_id": "p4",
+      "title": "Office cleaning",
+      "description": "Commercial space cleaning",
+      "price": 2499,
+      "duration_minutes": 240,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=133",
+      "featured": false,
+      "rating": 4.4,
+      "bookings": 145,
+      "tags": [
+        "office",
+        "commercial",
+        "cleaning"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "vacuum",
+        "mop",
+        "cleaning_supplies"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s35",
+      "provider_id": "p5",
+      "title": "Car AC repair",
+      "description": "AC system diagnosis and repair",
+      "price": 2499,
+      "duration_minutes": 150,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=134",
+      "featured": true,
+      "rating": 4.6,
+      "bookings": 198,
+      "tags": [
+        "car",
+        "ac",
+        "repair"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "ac_tools",
+        "refrigerant",
+        "diagnostic_tools"
+      ],
+      "warranty_months": 6
+    },
+    {
+      "id": "s36",
+      "provider_id": "p6",
+      "title": "Washing machine repair",
+      "description": "Fix washing machine issues",
+      "price": 999,
+      "duration_minutes": 90,
+      "category": "Appliance Repair",
+      "thumbnail": "https://picsum.photos/800/600?random=135",
+      "featured": false,
+      "rating": 4.3,
+      "bookings": 267,
+      "tags": [
+        "washing_machine",
+        "appliance",
+        "repair"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "multimeter",
+        "tools",
+        "replacement_parts"
+      ],
+      "warranty_months": 3
+    },
+    {
+      "id": "s37",
+      "provider_id": "p7",
+      "title": "Generator installation",
+      "description": "Backup generator setup",
+      "price": 4999,
+      "duration_minutes": 240,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=136",
+      "featured": true,
+      "rating": 4.9,
+      "bookings": 45,
+      "tags": [
+        "generator",
+        "installation",
+        "backup"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "generator",
+        "wiring_tools",
+        "fuel_system"
+      ],
+      "warranty_months": 36
+    },
+    {
+      "id": "s38",
+      "provider_id": "p8",
+      "title": "Biology tutoring (NEET)",
+      "description": "Botany, Zoology, Human Physiology",
+      "price": 650,
+      "duration_minutes": 60,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=137",
+      "featured": false,
+      "rating": 4.8,
+      "bookings": 378,
+      "tags": [
+        "biology",
+        "neet",
+        "tutoring"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "biology_kit",
+        "notes",
+        "diagrams"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 90
+    },
+    {
+      "id": "s39",
+      "provider_id": "p9",
+      "title": "Carpet cleaning",
+      "description": "Deep carpet shampooing",
+      "price": 799,
+      "duration_minutes": 120,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=138",
+      "featured": false,
+      "rating": 4.3,
+      "bookings": 234,
+      "tags": [
+        "carpet",
+        "cleaning",
+        "shampooing"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "carpet_cleaner",
+        "shampoo",
+        "vacuum"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s40",
+      "provider_id": "p10",
+      "title": "Car battery replacement",
+      "description": "Battery testing and replacement",
+      "price": 1499,
+      "duration_minutes": 60,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=139",
+      "featured": false,
+      "rating": 4.5,
+      "bookings": 345,
+      "tags": [
+        "car",
+        "battery",
+        "replacement"
+      ],
+      "difficulty": "easy",
+      "tools_required": [
+        "battery_tester",
+        "wrench",
+        "new_battery"
+      ],
+      "warranty_months": 12
+    },
+    {
+      "id": "s41",
+      "provider_id": "p1",
+      "title": "Pipe insulation",
+      "description": "Insulate water pipes",
+      "price": 899,
+      "duration_minutes": 90,
+      "category": "Plumber",
+      "thumbnail": "https://picsum.photos/800/600?random=140",
+      "featured": false,
+      "rating": 4.4,
+      "bookings": 123,
+      "tags": [
+        "pipe",
+        "insulation",
+        "energy_efficiency"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "insulation_material",
+        "tape",
+        "cutter"
+      ],
+      "warranty_months": 12
+    },
+    {
+      "id": "s42",
+      "provider_id": "p2",
+      "title": "CCTV installation",
+      "description": "Security camera setup",
+      "price": 2999,
+      "duration_minutes": 180,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=141",
+      "featured": true,
+      "rating": 4.7,
+      "bookings": 167,
+      "tags": [
+        "cctv",
+        "security",
+        "installation"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "cameras",
+        "cables",
+        "drill",
+        "monitor"
+      ],
+      "warranty_months": 24
+    },
+    {
+      "id": "s43",
+      "provider_id": "p3",
+      "title": "English speaking course",
+      "description": "Improve communication skills",
+      "price": 500,
+      "duration_minutes": 45,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=142",
+      "featured": false,
+      "rating": 4.6,
+      "bookings": 289,
+      "tags": [
+        "english",
+        "speaking",
+        "communication"
+      ],
+      "difficulty": "easy",
+      "tools_required": [
+        "notes",
+        "audio_materials",
+        "practice_exercises"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 82
+    },
+    {
+      "id": "s44",
+      "provider_id": "p4",
+      "title": "Window cleaning",
+      "description": "Interior and exterior window cleaning",
+      "price": 599,
+      "duration_minutes": 90,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=143",
+      "featured": false,
+      "rating": 4.2,
+      "bookings": 345,
+      "tags": [
+        "window",
+        "cleaning",
+        "glass"
+      ],
+      "difficulty": "easy",
+      "tools_required": [
+        "squeegee",
+        "cleaning_solution",
+        "ladder"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s45",
+      "provider_id": "p5",
+      "title": "Car detailing",
+      "description": "Complete car interior and exterior cleaning",
+      "price": 3499,
+      "duration_minutes": 300,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=144",
+      "featured": true,
+      "rating": 4.8,
+      "bookings": 123,
+      "tags": [
+        "car",
+        "detailing",
+        "cleaning"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "cleaning_kit",
+        "polish",
+        "vacuum",
+        "wax"
+      ],
+      "warranty_months": 1
+    },
+    {
+      "id": "s46",
+      "provider_id": "p6",
+      "title": "Refrigerator repair",
+      "description": "Fix cooling and other fridge issues",
+      "price": 1299,
+      "duration_minutes": 120,
+      "category": "Appliance Repair",
+      "thumbnail": "https://picsum.photos/800/600?random=145",
+      "featured": false,
+      "rating": 4.4,
+      "bookings": 234,
+      "tags": [
+        "refrigerator",
+        "appliance",
+        "repair"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "multimeter",
+        "tools",
+        "cooling_parts"
+      ],
+      "warranty_months": 6
+    },
+    {
+      "id": "s47",
+      "provider_id": "p7",
+      "title": "Solar panel installation",
+      "description": "Residential solar power setup",
+      "price": 9999,
+      "duration_minutes": 480,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=146",
+      "featured": true,
+      "rating": 4.9,
+      "bookings": 34,
+      "tags": [
+        "solar",
+        "installation",
+        "renewable_energy"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "solar_panels",
+        "inverter",
+        "wiring_tools"
+      ],
+      "warranty_months": 60
+    },
+    {
+      "id": "s48",
+      "provider_id": "p8",
+      "title": "Computer basics tutoring",
+      "description": "Learn computer fundamentals",
+      "price": 400,
+      "duration_minutes": 60,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=147",
+      "featured": false,
+      "rating": 4.5,
+      "bookings": 156,
+      "tags": [
+        "computer",
+        "basics",
+        "digital_literacy"
+      ],
+      "difficulty": "easy",
+      "tools_required": [
+        "computer",
+        "notes",
+        "practice_exercises"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 95
+    },
+    {
+      "id": "s49",
+      "provider_id": "p9",
+      "title": "Post construction cleaning",
+      "description": "Clean after renovation work",
+      "price": 3999,
+      "duration_minutes": 360,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=148",
+      "featured": true,
+      "rating": 4.6,
+      "bookings": 89,
+      "tags": [
+        "post_construction",
+        "deep_clean",
+        "renovation"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "heavy_duty_cleaner",
+        "vacuum",
+        "tools"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s50",
+      "provider_id": "p10",
+      "title": "Bike customization",
+      "description": "Custom bike modifications",
+      "price": 4999,
+      "duration_minutes": 240,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=149",
+      "featured": true,
+      "rating": 4.7,
+      "bookings": 67,
+      "tags": [
+        "bike",
+        "customization",
+        "modification"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "custom_parts",
+        "tools",
+        "paint"
+      ],
+      "warranty_months": 12
+    },
+    {
+      "id": "s51",
+      "provider_id": "p1",
+      "title": "Sewer line inspection",
+      "description": "Camera inspection of sewer lines",
+      "price": 1999,
+      "duration_minutes": 120,
+      "category": "Plumber",
+      "thumbnail": "https://picsum.photos/800/600?random=150",
+      "featured": false,
+      "rating": 4.5,
+      "bookings": 98,
+      "tags": [
+        "sewer",
+        "inspection",
+        "camera"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "camera",
+        "monitor",
+        "cables"
+      ],
+      "warranty_months": 3
+    },
+    {
+      "id": "s52",
+      "provider_id": "p2",
+      "title": "LED lighting upgrade",
+      "description": "Replace traditional lights with LED",
+      "price": 1799,
+      "duration_minutes": 150,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=151",
+      "featured": false,
+      "rating": 4.6,
+      "bookings": 145,
+      "tags": [
+        "led",
+        "lighting",
+        "upgrade",
+        "energy_efficiency"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "led_lights",
+        "wiring_tools",
+        "tester"
+      ],
+      "warranty_months": 24
+    },
+    {
+      "id": "s53",
+      "provider_id": "p3",
+      "title": "Accounting tutoring",
+      "description": "Financial accounting basics",
+      "price": 550,
+      "duration_minutes": 60,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=152",
+      "featured": false,
+      "rating": 4.4,
+      "bookings": 189,
+      "tags": [
+        "accounting",
+        "finance",
+        "tutoring"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "calculator",
+        "notes",
+        "practice_sets"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 80
+    },
+    {
+      "id": "s54",
+      "provider_id": "p4",
+      "title": "Gutter cleaning",
+      "description": "Clean and maintain gutters",
+      "price": 899,
+      "duration_minutes": 90,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=153",
+      "featured": false,
+      "rating": 4.1,
+      "bookings": 267,
+      "tags": [
+        "gutter",
+        "cleaning",
+        "maintenance"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "ladder",
+        "cleaning_tools",
+        "bags"
+      ],
+      "warranty_months": 1,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s55",
+      "provider_id": "p5",
+      "title": "Wheel alignment",
+      "description": "Car wheel alignment service",
+      "price": 999,
+      "duration_minutes": 60,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=154",
+      "featured": false,
+      "rating": 4.5,
+      "bookings": 234,
+      "tags": [
+        "car",
+        "wheel",
+        "alignment"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "alignment_machine",
+        "tools"
+      ],
+      "warranty_months": 3
+    },
+    {
+      "id": "s56",
+      "provider_id": "p6",
+      "title": "Oven repair",
+      "description": "Fix oven heating and control issues",
+      "price": 899,
+      "duration_minutes": 90,
+      "category": "Appliance Repair",
+      "thumbnail": "https://picsum.photos/800/600?random=155",
+      "featured": false,
+      "rating": 4.3,
+      "bookings": 178,
+      "tags": [
+        "oven",
+        "appliance",
+        "repair"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "multimeter",
+        "tools",
+        "heating_elements"
+      ],
+      "warranty_months": 3
+    },
+    {
+      "id": "s57",
+      "provider_id": "p7",
+      "title": "Home network setup",
+      "description": "WiFi and network installation",
+      "price": 1499,
+      "duration_minutes": 120,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=156",
+      "featured": false,
+      "rating": 4.7,
+      "bookings": 198,
+      "tags": [
+        "network",
+        "wifi",
+        "installation"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "router",
+        "cables",
+        "tools"
+      ],
+      "warranty_months": 12
+    },
+    {
+      "id": "s58",
+      "provider_id": "p8",
+      "title": "Programming basics (Python)",
+      "description": "Learn Python programming",
+      "price": 800,
+      "duration_minutes": 90,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=157",
+      "featured": false,
+      "rating": 4.8,
+      "bookings": 267,
+      "tags": [
+        "python",
+        "programming",
+        "coding"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "computer",
+        "ide",
+        "notes"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 92
+    },
+    {
+      "id": "s59",
+      "provider_id": "p9",
+      "title": "Pressure washing",
+      "description": "Exterior pressure washing service",
+      "price": 1299,
+      "duration_minutes": 120,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=158",
+      "featured": false,
+      "rating": 4.4,
+      "bookings": 156,
+      "tags": [
+        "pressure_washing",
+        "exterior",
+        "cleaning"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "pressure_washer",
+        "cleaning_solutions"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s60",
+      "provider_id": "p10",
+      "title": "Engine oil change",
+      "description": "Car engine oil replacement",
+      "price": 699,
+      "duration_minutes": 45,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=159",
+      "featured": false,
+      "rating": 4.6,
+      "bookings": 389,
+      "tags": [
+        "car",
+        "oil_change",
+        "maintenance"
+      ],
+      "difficulty": "easy",
+      "tools_required": [
+        "oil",
+        "filter",
+        "wrench",
+        "drain_pan"
+      ],
+      "warranty_months": 1
+    },
+    {
+      "id": "s61",
+      "provider_id": "p1",
+      "title": "Gas line installation",
+      "description": "Install natural gas lines",
+      "price": 2999,
+      "duration_minutes": 180,
+      "category": "Plumber",
+      "thumbnail": "https://picsum.photos/800/600?random=160",
+      "featured": true,
+      "rating": 4.8,
+      "bookings": 67,
+      "tags": [
+        "gas",
+        "installation",
+        "lines"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "pipes",
+        "fittings",
+        "tools",
+        "detector"
+      ],
+      "warranty_months": 24
+    },
+    {
+      "id": "s62",
+      "provider_id": "p2",
+      "title": "Electrical panel upgrade",
+      "description": "Upgrade main electrical panel",
+      "price": 5999,
+      "duration_minutes": 240,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=161",
+      "featured": true,
+      "rating": 4.9,
+      "bookings": 34,
+      "tags": [
+        "panel",
+        "upgrade",
+        "electrical"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "panel",
+        "wiring_tools",
+        "breaker"
+      ],
+      "warranty_months": 36
+    },
+    {
+      "id": "s63",
+      "provider_id": "p3",
+      "title": "Business English course",
+      "description": "Professional English communication",
+      "price": 750,
+      "duration_minutes": 60,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=162",
+      "featured": false,
+      "rating": 4.7,
+      "bookings": 234,
+      "tags": [
+        "business_english",
+        "professional",
+        "communication"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "notes",
+        "exercises",
+        "materials"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 88
+    },
+    {
+      "id": "s64",
+      "provider_id": "p4",
+      "title": "Disinfection service",
+      "description": "Complete home disinfection",
+      "price": 1999,
+      "duration_minutes": 120,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=163",
+      "featured": false,
+      "rating": 4.5,
+      "bookings": 189,
+      "tags": [
+        "disinfection",
+        "sanitization",
+        "health"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "disinfectants",
+        "sprayers",
+        "protective_gear"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s65",
+      "provider_id": "p5",
+      "title": "Transmission service",
+      "description": "Car transmission fluid change",
+      "price": 1999,
+      "duration_minutes": 120,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=164",
+      "featured": false,
+      "rating": 4.6,
+      "bookings": 145,
+      "tags": [
+        "car",
+        "transmission",
+        "fluid_change"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "transmission_fluid",
+        "tools",
+        "pan"
+      ],
+      "warranty_months": 6
+    },
+    {
+      "id": "s66",
+      "provider_id": "p6",
+      "title": "Washer repair",
+      "description": "Fix washing machine problems",
+      "price": 799,
+      "duration_minutes": 75,
+      "category": "Appliance Repair",
+      "thumbnail": "https://picsum.photos/800/600?random=165",
+      "featured": false,
+      "rating": 4.2,
+      "bookings": 289,
+      "tags": [
+        "washer",
+        "appliance",
+        "repair"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "tools",
+        "parts",
+        "multimeter"
+      ],
+      "warranty_months": 3
+    },
+    {
+      "id": "s67",
+      "provider_id": "p7",
+      "title": "Smart thermostat installation",
+      "description": "Install smart home thermostat",
+      "price": 1299,
+      "duration_minutes": 90,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=166",
+      "featured": false,
+      "rating": 4.7,
+      "bookings": 178,
+      "tags": [
+        "thermostat",
+        "smart_home",
+        "installation"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "thermostat",
+        "wiring_tools",
+        "drill"
+      ],
+      "warranty_months": 12
+    },
+    {
+      "id": "s68",
+      "provider_id": "p8",
+      "title": "Data structures tutoring",
+      "description": "Learn algorithms and data structures",
+      "price": 900,
+      "duration_minutes": 90,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=167",
+      "featured": false,
+      "rating": 4.9,
+      "bookings": 156,
+      "tags": [
+        "data_structures",
+        "algorithms",
+        "programming"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "computer",
+        "notes",
+        "code_examples"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 94
+    },
+    {
+      "id": "s69",
+      "provider_id": "p9",
+      "title": "Air duct cleaning",
+      "description": "HVAC duct cleaning service",
+      "price": 1599,
+      "duration_minutes": 150,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=168",
+      "featured": false,
+      "rating": 4.3,
+      "bookings": 98,
+      "tags": [
+        "air_duct",
+        "hvac",
+        "cleaning"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "duct_cleaner",
+        "vacuum",
+        "tools"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s70",
+      "provider_id": "p10",
+      "title": "Tire replacement",
+      "description": "Car tire replacement service",
+      "price": 2499,
+      "duration_minutes": 90,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=169",
+      "featured": false,
+      "rating": 4.5,
+      "bookings": 267,
+      "tags": [
+        "car",
+        "tires",
+        "replacement"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "tires",
+        "tire_machine",
+        "balancer"
+      ],
+      "warranty_months": 12
+    },
+    {
+      "id": "s71",
+      "provider_id": "p1",
+      "title": "Water pump replacement",
+      "description": "Replace water pump system",
+      "price": 3499,
+      "duration_minutes": 180,
+      "category": "Plumber",
+      "thumbnail": "https://picsum.photos/800/600?random=170",
+      "featured": true,
+      "rating": 4.6,
+      "bookings": 89,
+      "tags": [
+        "water_pump",
+        "replacement",
+        "plumbing"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "pump",
+        "pipes",
+        "tools",
+        "fittings"
+      ],
+      "warranty_months": 24
+    },
+    {
+      "id": "s72",
+      "provider_id": "p2",
+      "title": "Electric vehicle charger installation",
+      "description": "Install EV charging station",
+      "price": 7999,
+      "duration_minutes": 300,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=171",
+      "featured": true,
+      "rating": 4.9,
+      "bookings": 23,
+      "tags": [
+        "ev_charger",
+        "electric_vehicle",
+        "installation"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "ev_charger",
+        "wiring_tools",
+        "breaker"
+      ],
+      "warranty_months": 36
+    },
+    {
+      "id": "s73",
+      "provider_id": "p3",
+      "title": "IELTS preparation",
+      "description": "Complete IELTS exam preparation",
+      "price": 1200,
+      "duration_minutes": 120,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=172",
+      "featured": true,
+      "rating": 4.8,
+      "bookings": 345,
+      "tags": [
+        "ielts",
+        "english",
+        "exam_prep"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "study_materials",
+        "practice_tests",
+        "audio"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 91
+    },
+    {
+      "id": "s74",
+      "provider_id": "p4",
+      "title": "Garage cleaning",
+      "description": "Complete garage organization and cleaning",
+      "price": 1799,
+      "duration_minutes": 180,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=173",
+      "featured": false,
+      "rating": 4.2,
+      "bookings": 123,
+      "tags": [
+        "garage",
+        "cleaning",
+        "organization"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "cleaning_supplies",
+        "organizers",
+        "vacuum"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s75",
+      "provider_id": "p5",
+      "title": "Clutch replacement",
+      "description": "Car clutch system replacement",
+      "price": 4999,
+      "duration_minutes": 240,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=174",
+      "featured": true,
+      "rating": 4.7,
+      "bookings": 78,
+      "tags": [
+        "car",
+        "clutch",
+        "replacement"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "clutch_kit",
+        "tools",
+        "transmission_jack"
+      ],
+      "warranty_months": 12
+    },
+    {
+      "id": "s76",
+      "provider_id": "p6",
+      "title": "Dryer repair",
+      "description": "Fix clothes dryer issues",
+      "price": 699,
+      "duration_minutes": 75,
+      "category": "Appliance Repair",
+      "thumbnail": "https://picsum.photos/800/600?random=175",
+      "featured": false,
+      "rating": 4.1,
+      "bookings": 234,
+      "tags": [
+        "dryer",
+        "appliance",
+        "repair"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "tools",
+        "parts",
+        "multimeter"
+      ],
+      "warranty_months": 3
+    },
+    {
+      "id": "s77",
+      "provider_id": "p7",
+      "title": "Home theater setup",
+      "description": "Complete home theater installation",
+      "price": 3999,
+      "duration_minutes": 240,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=176",
+      "featured": true,
+      "rating": 4.8,
+      "bookings": 56,
+      "tags": [
+        "home_theater",
+        "installation",
+        "entertainment"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "tv",
+        "speakers",
+        "cables",
+        "mount"
+      ],
+      "warranty_months": 24
+    },
+    {
+      "id": "s78",
+      "provider_id": "p8",
+      "title": "Web development basics",
+      "description": "Learn HTML, CSS, JavaScript",
+      "price": 700,
+      "duration_minutes": 90,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=177",
+      "featured": false,
+      "rating": 4.7,
+      "bookings": 189,
+      "tags": [
+        "web_development",
+        "html",
+        "css",
+        "javascript"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "computer",
+        "editor",
+        "notes"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 87
+    },
+    {
+      "id": "s79",
+      "provider_id": "p9",
+      "title": "Rug cleaning",
+      "description": "Professional rug cleaning service",
+      "price": 899,
+      "duration_minutes": 90,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=178",
+      "featured": false,
+      "rating": 4.3,
+      "bookings": 167,
+      "tags": [
+        "rug",
+        "cleaning",
+        "professional"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "cleaning_equipment",
+        "solutions",
+        "dryer"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": true,
+      "materials_included": true
+    },
+    {
+      "id": "s80",
+      "provider_id": "p10",
+      "title": "Suspension repair",
+      "description": "Car suspension system repair",
+      "price": 2999,
+      "duration_minutes": 180,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=179",
+      "featured": false,
+      "rating": 4.6,
+      "bookings": 134,
+      "tags": [
+        "car",
+        "suspension",
+        "repair"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "suspension_parts",
+        "tools",
+        "alignment_machine"
+      ],
+      "warranty_months": 12
+    },
+    {
+      "id": "s81",
+      "provider_id": "p1",
+      "title": "Backflow prevention",
+      "description": "Install backflow prevention device",
+      "price": 1899,
+      "duration_minutes": 120,
+      "category": "Plumber",
+      "thumbnail": "https://picsum.photos/800/600?random=180",
+      "featured": false,
+      "rating": 4.5,
+      "bookings": 78,
+      "tags": [
+        "backflow",
+        "prevention",
+        "plumbing"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "backflow_device",
+        "pipes",
+        "tools"
+      ],
+      "warranty_months": 12
+    },
+    {
+      "id": "s82",
+      "provider_id": "p2",
+      "title": "Lightning protection",
+      "description": "Install lightning protection system",
+      "price": 6999,
+      "duration_minutes": 300,
+      "category": "Electrician",
+      "thumbnail": "https://picsum.photos/800/600?random=181",
+      "featured": true,
+      "rating": 4.8,
+      "bookings": 34,
+      "tags": [
+        "lightning",
+        "protection",
+        "safety"
+      ],
+      "difficulty": "hard",
+      "tools_required": [
+        "lightning_rods",
+        "cables",
+        "grounding"
+      ],
+      "warranty_months": 36
+    },
+    {
+      "id": "s83",
+      "provider_id": "p3",
+      "title": "Personality development",
+      "description": "Build confidence and communication skills",
+      "price": 600,
+      "duration_minutes": 60,
+      "category": "Tutor",
+      "thumbnail": "https://picsum.photos/800/600?random=182",
+      "featured": false,
+      "rating": 4.6,
+      "bookings": 234,
+      "tags": [
+        "personality",
+        "development",
+        "confidence"
+      ],
+      "difficulty": "easy",
+      "tools_required": [
+        "notes",
+        "exercises",
+        "materials"
+      ],
+      "warranty_months": 0,
+      "online_available": true,
+      "materials_included": true,
+      "success_rate": 85
+    },
+    {
+      "id": "s84",
+      "provider_id": "p4",
+      "title": "Swimming pool cleaning",
+      "description": "Pool maintenance and cleaning",
+      "price": 2499,
+      "duration_minutes": 180,
+      "category": "Cleaning",
+      "thumbnail": "https://picsum.photos/800/600?random=183",
+      "featured": false,
+      "rating": 4.4,
+      "bookings": 89,
+      "tags": [
+        "pool",
+        "cleaning",
+        "maintenance"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "pool_cleaner",
+        "chemicals",
+        "tools"
+      ],
+      "warranty_months": 0,
+      "eco_friendly": false,
+      "materials_included": true
+    },
+    {
+      "id": "s85",
+      "provider_id": "p5",
+      "title": "Exhaust system repair",
+      "description": "Car exhaust system replacement",
+      "price": 1999,
+      "duration_minutes": 120,
+      "category": "Mechanic",
+      "thumbnail": "https://picsum.photos/800/600?random=184",
+      "featured": false,
+      "rating": 4.5,
+      "bookings": 167,
+      "tags": [
+        "car",
+        "exhaust",
+        "repair"
+      ],
+      "difficulty": "medium",
+      "tools_required": [
+        "exhaust_system",
+        "tools",
+        "welder"
+      ],
+      "warranty_months": 12
+    }
+  ],
+  "bookings": [
+    {
+      "id": "fe6e5eb6-e69c-4baa-8ddb-7ef4e54126a4",
+      "user_id": "u1",
+      "provider_id": "p1",
+      "service_id": "s15",
+      "datetime": "",
+      "address": "",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "createdAt": "2025-11-13T11:45:52.873478"
+    },
+    {
+      "id": "bbf4c6fe-8dd1-4b8d-929c-ee90c3dbaf42",
+      "user_id": "u1",
+      "provider_id": "p1",
+      "service_id": "s1",
+      "datetime": "2025-11-14T18:05",
+      "address": "gjhncdgrdhcngb",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "createdAt": "2025-11-13T12:36:18.385025"
+    },
+    {
+      "id": "49f24e15-adfa-47a0-9d83-321fee14d44d",
+      "user_id": "u1",
+      "provider_id": "p1",
+      "service_id": "s1",
+      "datetime": "2025-11-14T18:05",
+      "address": "gjhncdgrdhcngb",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "createdAt": "2025-11-13T12:36:19.320309"
+    },
+    {
+      "id": "4b4d8f59-da44-4575-a4de-17d71b9d197e",
+      "user_id": "yZPfAZQSC9Ps7utZLJ0ASXSI2L13",
+      "provider_id": "p1",
+      "service_id": "s1",
+      "datetime": "2025-11-26T09:00",
+      "address": "mechanical engineering services",
+      "notes": "car insurance  issues  pls fix",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "amount": 499,
+      "currency": "INR",
+      "service_title": "Fix leaking tap",
+      "service_category": "Plumber",
+      "created_at": "2025-11-22T17:03:58.845475Z",
+      "updated_at": "2025-11-22T17:03:58.847435Z"
+    },
+    {
+      "id": "69687408-7347-478f-ba29-c1ab3f05a590",
+      "user_id": "yZPfAZQSC9Ps7utZLJ0ASXSI2L13",
+      "provider_id": "p1",
+      "service_id": "s1",
+      "datetime": "2025-11-25T09:00",
+      "address": "gitam collage  haryana , jhajjer 124104",
+      "notes": "car issue pls resolve",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "amount": 499,
+      "currency": "INR",
+      "service_title": "Fix leaking tap",
+      "service_category": "Plumber",
+      "created_at": "2025-11-22T17:07:28.159964Z",
+      "updated_at": "2025-11-22T17:07:28.159975Z"
+    },
+    {
+      "id": "732d0e3c-9ca1-4e96-b194-e927310e9c23",
+      "user_id": "yZPfAZQSC9Ps7utZLJ0ASXSI2L13",
+      "provider_id": "p6",
+      "service_id": "s2",
+      "datetime": "2025-11-25T09:00",
+      "address": "college gitam",
+      "notes": "car issues  resolved  this car.",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "amount": 699,
+      "currency": "INR",
+      "service_title": "Clogged drain cleaning",
+      "service_category": "Plumber",
+      "created_at": "2025-11-22T17:10:52.680452Z",
+      "updated_at": "2025-11-22T17:10:52.680470Z"
+    },
+    {
+      "id": "a9452f54-083f-4bbd-a379-52e1125b048c",
+      "user_id": "test",
+      "provider_id": "p1",
+      "service_id": "s1",
+      "datetime": "2025-11-23T10:00:00Z",
+      "address": "Test Address",
+      "notes": "",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "amount": 499,
+      "currency": "INR",
+      "service_title": "Fix leaking tap",
+      "service_category": "Plumber",
+      "created_at": "2025-11-22T18:03:50.198229Z",
+      "updated_at": "2025-11-22T18:03:50.198462Z"
+    },
+    {
+      "id": "d6d9349d-7f8a-4066-89cb-013a3fbe5d75",
+      "user_id": "test123",
+      "provider_id": "p1",
+      "service_id": "s1",
+      "datetime": "2025-11-23T10:00:00Z",
+      "address": "123 Test Street, City, State 12345",
+      "notes": "",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "amount": 499,
+      "currency": "INR",
+      "service_title": "Fix leaking tap",
+      "service_category": "Plumber",
+      "created_at": "2025-11-22T18:10:12.753401Z",
+      "updated_at": "2025-11-22T18:10:12.753698Z"
+    },
+    {
+      "id": "80b8c259-2a34-4991-93a9-5a26a35a4cf4",
+      "user_id": "test123",
+      "provider_id": "p1",
+      "service_id": "s1",
+      "datetime": "2025-11-23T10:00:00Z",
+      "address": "123 Test Street, City, State 12345",
+      "notes": "",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "amount": 499,
+      "currency": "INR",
+      "service_title": "Fix leaking tap",
+      "service_category": "Plumber",
+      "created_at": "2025-11-22T18:10:39.808282Z",
+      "updated_at": "2025-11-22T18:10:39.808292Z"
+    },
+    {
+      "id": "369e39fd-17ae-4c56-b15e-5b34e9f9c227",
+      "user_id": "test123",
+      "provider_id": "p1",
+      "service_id": "s1",
+      "datetime": "2025-11-23T10:00:00Z",
+      "address": "123 Test Street, City, State 12345",
+      "notes": "",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "amount": 499,
+      "currency": "INR",
+      "service_title": "Fix leaking tap",
+      "service_category": "Plumber",
+      "created_at": "2025-11-22T18:11:39.528789Z",
+      "updated_at": "2025-11-22T18:11:39.528906Z"
+    },
+    {
+      "id": "e41100c5-8e67-413f-9906-a24a3be1b605",
+      "user_id": "test123",
+      "provider_id": "p1",
+      "service_id": "s1",
+      "datetime": "2025-11-23T10:00:00Z",
+      "address": "123 Test Street, City, State 12345",
+      "notes": "",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "amount": 499,
+      "currency": "INR",
+      "service_title": "Fix leaking tap",
+      "service_category": "Plumber",
+      "created_at": "2025-11-22T18:13:18.470737Z",
+      "updated_at": "2025-11-22T18:13:18.470752Z"
+    },
+    {
+      "id": "d0b9591c-5f7d-408e-8c0b-6f46eb3cdde2",
+      "user_id": "test-user-123",
+      "provider_id": "p1",
+      "service_id": "s1",
+      "datetime": "2025-11-23T10:00:00Z",
+      "address": "123 Test Street, City, State 12345",
+      "notes": "",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "amount": 499,
+      "currency": "INR",
+      "service_title": "Fix leaking tap",
+      "service_category": "Plumber",
+      "created_at": "2025-11-22T18:16:16.472161Z",
+      "updated_at": "2025-11-22T18:16:16.472344Z"
+    },
+    {
+      "id": "32f65571-fa75-44b6-ae60-c18706593ef5",
+      "user_id": "yZPfAZQSC9Ps7utZLJ0ASXSI2L13",
+      "provider_id": "p1",
+      "service_id": "s1",
+      "datetime": "2025-11-26T08:30:00",
+      "address": "hii I'm  anshu   fix mechanical engineering college in gitam",
+      "notes": "car insurance ",
+      "status": "pending",
+      "payment_status": "unpaid",
+      "amount": 499,
+      "currency": "INR",
+      "service_title": "Fix leaking tap",
+      "service_category": "Plumber",
+      "created_at": "2025-11-22T19:10:25.434603Z",
+      "updated_at": "2025-11-22T19:10:25.435003Z"
+    }
+  ],
+  "reviews": [],
+  "transactions": []
+}
