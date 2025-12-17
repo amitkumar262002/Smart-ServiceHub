@@ -8,6 +8,7 @@ const __dirname = path.dirname(__filename)
 
 export default defineConfig({
   plugins: [react()],
+  base: '/Smart-ServiceHub/',
   server: { 
     port: 5173, 
     host: true,
@@ -15,6 +16,10 @@ export default defineConfig({
       'Cross-Origin-Opener-Policy': 'same-origin-allow-popups',
       'Cross-Origin-Embedder-Policy': 'unsafe-none'
     }
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets'
   },
   resolve: {
     alias: {
